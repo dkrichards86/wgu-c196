@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dkrichards.studentapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_wgu"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_wgu_round"
+        android:supportsRtl="true"
+        android:theme="@style/WGU">
+        <activity
+            android:name=".ui.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.activity.TermListActivity"
+            android:label="@string/title_item_list"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.TermDetailActivity"
+            android:label="@string/title_item_detail"
+            android:parentActivityName=".ui.activity.TermListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.TermListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.TermEditorActivity"
+            android:label="@string/title_activity_term_editor"
+            android:parentActivityName=".ui.activity.TermListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.TermListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.CourseListActivity"
+            android:label="@string/title_course_list"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.CourseDetailActivity"
+            android:label="@string/title_course_detail"
+            android:parentActivityName=".ui.activity.CourseListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.CourseListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.CourseEditorActivity"
+            android:label="@string/title_activity_course_editor"
+            android:parentActivityName=".ui.activity.CourseListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.CourseListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.AssessmentListActivity"
+            android:label="@string/title_assessment_list"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.AssessmentDetailActivity"
+            android:label="@string/title_assessment_detail"
+            android:parentActivityName=".ui.activity.AssessmentListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.AssessmentListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.AssessmentEditorActivity"
+            android:label="@string/title_activity_assessment_editor"
+            android:parentActivityName=".ui.activity.AssessmentListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.AssessmentListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.MentorEditorActivity"
+            android:label="@string/title_activity_mentor_editor"
+            android:parentActivityName=".ui.activity.CourseListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.CourseListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.NoteDetailActivity"
+            android:label="@string/title_note_detail"
+            android:parentActivityName=".ui.activity.CourseListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.CourseListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.NoteEditorActivity"
+            android:label="@string/title_activity_note_editor"
+            android:parentActivityName=".ui.activity.CourseListActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.CourseListActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ui.activity.SharingActivity"
+            android:label="@string/title_activity_sharing"
+            android:parentActivityName=".ui.activity.MainActivity"
+            android:theme="@style/WGU">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dkrichards.studentapplication.ui.activity.MainActivity" />
+        </activity>
+
+        <receiver android:name=".receivers.AlarmReceiver" />
+
+    </application>
+
+</manifest>

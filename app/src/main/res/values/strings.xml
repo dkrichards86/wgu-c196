@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">WGU-NC</string>
+
+    <string name="view_term_list">Manage Terms</string>
+    <string name="title_item_list">Terms</string>
+    <string name="title_item_detail">Term Detail</string>
+    <string name="title_activity_term_editor">Term Editor</string>
+
+    <string name="view_course_list">Manage Courses</string>
+    <string name="title_course_list">Courses</string>
+    <string name="title_course_detail">Course Detail</string>
+    <string name="title_activity_course_editor">Course Editor</string>
+
+    <string name="view_assessment_list">Manage Assessment</string>
+    <string name="title_assessment_list">Assessments</string>
+    <string name="title_assessment_detail">Assessment Detail</string>
+    <string name="title_activity_assessment_editor">Assessment Editor</string>
+
+    <string name="title_activity_mentor_editor">Mentor Editor</string>
+
+    <string name="title_note_detail">Note Detail</string>
+    <string name="title_activity_note_editor">Note Editor</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="title_activity_sharing">Share a Note</string>
+</resources>
